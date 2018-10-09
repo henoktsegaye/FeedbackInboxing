@@ -36,16 +36,23 @@
 					<center> <h4 style="color: #ccc;"> My company </h4> </center>
 					<br>
 <?php
-if(isset($_GET['msg'])){
-$msg = $_GET['msg'];
-
-
-	echo " <p style='color: #f519b8; text-align: center;'> $msg </p> ";
+new LoginControl;
+class LoginControl {
+	function __construct() {
+	
+		if(isset($_GET['msg'])){
+			$msg = $_GET['msg'];
+			
+			
+				echo " <p style='color: #f519b8; text-align: center;'> $msg </p> ";
+			}
+			
+	}
 }
 ?>
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
-						<input class="input100" type="text" name="email">
-						<span class="focus-input100" data-placeholder="Email"></span>
+					<div class="wrap-input100 validate-input" >
+						<input class="input100" type="text" name="username">
+						<span class="focus-input100" data-placeholder="username"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter password">

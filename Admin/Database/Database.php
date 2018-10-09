@@ -2,7 +2,7 @@
 class Database {
 	
 		function __construct(){
-		echo "database is here";
+		
 $this->connection();
 	}
 	public $conn = null;

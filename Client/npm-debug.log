@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@material-ui/core' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @material-ui/core
+8 silly fetchNamedPackageData @material-ui/core
+9 silly mapToRegistry name @material-ui/core
+10 silly mapToRegistry scope (from package name) @material-ui
+11 verbose mapToRegistry no registry URL found in name for scope @material-ui
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2fcore
+15 verbose request uri https://registry.npmjs.org/@material-ui%2fcore
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 6:24:51 PM
+18 verbose request id fb82aa47ba655dab
+19 http request GET https://registry.npmjs.org/@material-ui%2fcore
+20 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+21 info attempt registry request try #2 at 6:25:01 PM
+22 http request GET https://registry.npmjs.org/@material-ui%2fcore
+23 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+24 info attempt registry request try #3 at 6:26:01 PM
+25 http request GET https://registry.npmjs.org/@material-ui%2fcore
+26 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+26 silly fetchPackageMetaData     at errnoException (dns.js:50:10)
+26 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+26 silly fetchPackageMetaData  error for @material-ui/core { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+26 silly fetchPackageMetaData     at errnoException (dns.js:50:10)
+26 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+26 silly fetchPackageMetaData   code: 'ENOTFOUND',
+26 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+26 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+26 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+26 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+26 silly fetchPackageMetaData   port: 443 }
+27 silly rollbackFailedOptional Starting
+28 silly rollbackFailedOptional Finishing
+29 silly runTopLevelLifecycles Starting
+30 silly runTopLevelLifecycles Finishing
+31 silly install printInstalled
+32 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+32 verbose stack     at errnoException (dns.js:50:10)
+32 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+33 verbose cwd /opt/lampp/htdocs/FeedbackInboxing/Client
+34 error Linux 4.16.11-041611-generic
+35 error argv "/usr/bin/node" "/usr/bin/npm" "install" "@material-ui/core"
+36 error node v8.10.0
+37 error npm  v3.5.2
+38 error code ENOTFOUND
+39 error errno ENOTFOUND
+40 error syscall getaddrinfo
+41 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+42 error network This is most likely not a problem with npm itself
+42 error network and is related to network connectivity.
+42 error network In most cases you are behind a proxy or have bad network settings.
+42 error network
+42 error network If you are behind a proxy, please make sure that the
+42 error network 'proxy' config is set properly.  See: 'npm help config'
+43 verbose exit [ 1, true ]
