@@ -1,3 +1,13 @@
 # FeedbackInboxing
-welcome to feedback inboxing system which is a really cool stuff  i mean its all about user satisfaction here so when ever company 
-you own you should recive feedback for every product or service you give for your customers , so this is the software for you
+## looking for a feedback inboxing project for your company ?
+### here is feedback inboxing for your need
+this project is @simple and @flexiable. 
+### it let's you get feedback from customer from every where and any time
+steps to set up this project
+
+1. clone this repo
+2. set up the mysql data base
+3. enjoy !
+
+### this project uses lampp stack
+
